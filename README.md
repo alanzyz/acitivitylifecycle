@@ -1,13 +1,14 @@
 # acitivitylifecycle
 把玩activity生命周期
-#项目结构：
+
+# 项目结构：
 三个activity，main, 透明，和第二
 从main有两个button跳转到透明和第二。
 main中有一个edit 来让用户输入内容，观察saveInstance相关的现象。
 
-#注意：
+# 注意：
 项目下载后，可以通过过滤MainActivity标签。在logcat中查看生命周期的过程。
-#可玩操作：
+# 可玩操作：
 启动应用到可见：
 
 2019-11-07 18:15:15.993 5574-5574/? E/MainActivity: onCreate  
