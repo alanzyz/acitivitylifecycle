@@ -29,4 +29,35 @@
 2019-11-07 18:16:54.223 5574-5574/com.play.activitylife E/MainActivity: onRestart  
 2019-11-07 18:16:54.224 5574-5574/com.play.activitylife E/MainActivity: onStart  
 2019-11-07 18:16:54.224 5574-5574/com.play.activitylife E/MainActivity: onResume  
+=============================================================
+1. 正常可见，可交互状态，点击菜单键（可以看到结果同home键）
+2019-11-07 18:19:32.019 5574-5574/com.play.activitylife E/MainActivity: onPause  
+2019-11-07 18:19:32.049 5574-5574/com.play.activitylife E/MainActivity: onSaveInstanceState  
+2019-11-07 18:19:32.054 5574-5574/com.play.activitylife E/MainActivity: onStop  
+==============================================================
+1. 正常可见状态下，翻转屏幕
+2019-11-07 18:21:43.818 5863-5863/com.play.activitylife E/MainActivity: onPause  
+2019-11-07 18:21:43.820 5863-5863/com.play.activitylife E/MainActivity: onSaveInstanceState  
+2019-11-07 18:21:43.847 5863-5863/com.play.activitylife E/MainActivity: onStop  
+2019-11-07 18:21:43.848 5863-5863/com.play.activitylife E/MainActivity: onDestroy  
+2019-11-07 18:21:43.891 5863-5863/com.play.activitylife E/MainActivity: onCreate savedInstanceStateC.L.Wang
+2019-11-07 18:21:43.891 5863-5863/com.play.activitylife E/MainActivity: onCreate  
+2019-11-07 18:21:43.891 5863-5863/com.play.activitylife E/MainActivity: onStart  
+2019-11-07 18:21:43.892 5863-5863/com.play.activitylife E/MainActivity: onRestoreInstanceState  savedInstanceStateC.L.Wang
+2019-11-07 18:21:43.892 5863-5863/com.play.activitylife E/MainActivity: onRestoreInstanceState  
+2019-11-07 18:21:43.893 5863-5863/com.play.activitylife E/MainActivity: onResume  
+2. 再次切回正常竖屏（可以看到和1完全一样）
+2019-11-07 18:23:08.614 5863-5863/com.play.activitylife E/MainActivity: onPause  
+2019-11-07 18:23:08.616 5863-5863/com.play.activitylife E/MainActivity: onSaveInstanceState  
+2019-11-07 18:23:08.622 5863-5863/com.play.activitylife E/MainActivity: onStop  
+2019-11-07 18:23:08.622 5863-5863/com.play.activitylife E/MainActivity: onDestroy  
+2019-11-07 18:23:08.651 5863-5863/com.play.activitylife E/MainActivity: onCreate savedInstanceStateC.L.Wang
+2019-11-07 18:23:08.651 5863-5863/com.play.activitylife E/MainActivity: onCreate  
+2019-11-07 18:23:08.652 5863-5863/com.play.activitylife E/MainActivity: onStart  
+2019-11-07 18:23:08.652 5863-5863/com.play.activitylife E/MainActivity: onRestoreInstanceState  savedInstanceStateC.L.Wang
+2019-11-07 18:23:08.652 5863-5863/com.play.activitylife E/MainActivity: onRestoreInstanceState  
+2019-11-07 18:23:08.654 5863-5863/com.play.activitylife E/MainActivity: onResume  
+
+
+
 
