@@ -29,13 +29,17 @@
 2019-11-07 18:16:54.223 5574-5574/com.play.activitylife E/MainActivity: onRestart  
 2019-11-07 18:16:54.224 5574-5574/com.play.activitylife E/MainActivity: onStart  
 2019-11-07 18:16:54.224 5574-5574/com.play.activitylife E/MainActivity: onResume  
+
 =============================================================
+
 1. 正常可见，可交互状态，点击菜单键（可以看到结果同home键）
 
 2019-11-07 18:19:32.019 5574-5574/com.play.activitylife E/MainActivity: onPause  
 2019-11-07 18:19:32.049 5574-5574/com.play.activitylife E/MainActivity: onSaveInstanceState  
 2019-11-07 18:19:32.054 5574-5574/com.play.activitylife E/MainActivity: onStop  
+
 ==============================================================
+
 1. 正常可见状态下，翻转屏幕
 
 2019-11-07 18:21:43.818 5863-5863/com.play.activitylife E/MainActivity: onPause  
